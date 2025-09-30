@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    ;padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    width: 550px; 
+    height: 510px;
+    background-color: white;
+    border: 5px;
+     border:2px solid #b8b8b85d;
+    border-radius: 20px;
+    padding: 0 15px;
+}
+
+:root{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    --main-color:#44c96c;
+    --box-shadow:0px 3px 5px 0px rgba(0,0,0.34);
+    --hover-shadow:0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow:0px 0px 10px 0px rgba(0,0,0,0.100);
+    --light-black:#141c3a;
+}
+
+body{
+    font-family: "Times New Romans";
+}
+
+.container{
+    width:28%
+    margin:100px auto;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+form label{
+    margin:5px 0;
+}
+
+form input[type="text"], input[type="password"]{
+    height: 40px;
+    margin:5px 0;
+    width:500px;
+    border:0.5px solid #b8b8b85d;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: "Numito",sans-serif;
+}
+
+form a{
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    color:var(--light-black)
+    font-weight: bold;
+}
+
+form strong{
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    color: #44c96c;
+}
+
+form input[type="submit"]{
+    height: 40px;
+    width:470px;
+    background:var(--main-color);
+    font-size: 20px;
+    font-family: "Numito",sans-serif;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    box-shadow: var(--b0x-shadow);
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0,0,.1);
+}
+
+button{
+    width: 90%;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    background-color: #44c96c;
+    border-radius: 40px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0,0,.1);
+}
+.footer a{
+    font-size: 16px;
+    display:flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    color:black;
+}
+
+.footer strong{
+    font-size: 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    margin: 20px 0 15px
+    color: #44c96c;
+}
+
+.footer p{
+   font-size: 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    margin: 20px 0 15px
+}
